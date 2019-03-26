@@ -303,13 +303,13 @@ paths:
         '404':
           $ref: 'TS29571_CommonData.yaml#/components/responses/404'
         '411':
-          $ref: 'TS29571_CommonData.yaml#/components/responses/411'
+          $ref: 'https://raw.githubusercontent.com/shenjian74/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/411'
         '413':
           $ref: 'TS29571_CommonData.yaml#/components/responses/413'
         '415':
           $ref: 'TS29571_CommonData.yaml#/components/responses/415'
         '429':
-          $ref: 'TS29571_CommonData.yaml#/components/responses/429'
+          $ref: 'https://raw.githubusercontent.com/shenjian74/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/429'
         '500':
           $ref: 'TS29571_CommonData.yaml#/components/responses/500'
         '503':
