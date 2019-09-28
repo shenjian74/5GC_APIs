@@ -20,6 +20,7 @@ Other releases: [Rel-16 (Open)](https://github.com/shenjian74/5GC_APIs/tree/mast
 The links below will open the Swagger Editor (v3.6.23) and auto-load the OpenAPI YAML file of each Network Function (NF) API:
 <br/>
 
+<!-- APIs -->
 ## NRF (NF Repository Function)
 * [NF Management](https://shenjian74.github.io/5GC_APIs/loader.html?yaml=TS29510_Nnrf_NFManagement.yaml)
 * [NF Discovery](https://shenjian74.github.io/5GC_APIs/loader.html?yaml=TS29510_Nnrf_NFDiscovery.yaml)
