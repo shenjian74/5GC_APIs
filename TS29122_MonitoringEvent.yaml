@@ -367,7 +367,7 @@ components:
           description: If "monitoringType" is "UE_REACHABILITY", this parameter may be included to identify the number of packets that the serving gateway shall buffer in case that the UE is not reachable.
         idleStatusIndication:
           type: boolean
-          description: If "monitoringType" is set to "UE_REACHABILITY" or "AVAILABILITY_AFTER_DDN_FAILURE", this parameter may be included to indicate the notification of when a UE, for which PSM is enabled, transitions into idle mode. -	"true"  indicate enabling of notification -	"false"  indicate no need to notify Default  "false".
+          description: If "monitoringType" is set to "UE_REACHABILITY" or "AVAILABILITY_AFTER_DDN_FAILURE", this parameter may be included to indicate the notification of when a UE, for which PSM is enabled, transitions into idle mode. - "true"  indicate enabling of notification - "false"  indicate no need to notify Default  "false".
         locationType:
           $ref: '#/components/schemas/LocationType'
         accuracy:
@@ -399,7 +399,7 @@ components:
           $ref: '#/components/schemas/AssociationType'
         plmnIndication:
           type: boolean
-          description: If "monitoringType" is "ROAMING_STATUS", this parameter may be included to indicate the notification of UE's Serving PLMN ID. -	"true"  The value shall be used to indicate enabling of notification; -	"false"  The value shall be used to indicate disabling of notification.  Default  "false".
+          description: If "monitoringType" is "ROAMING_STATUS", this parameter may be included to indicate the notification of UE's Serving PLMN ID. - "true"  The value shall be used to indicate enabling of notification; - "false"  The value shall be used to indicate disabling of notification.  Default  "false".
         locationArea:
           $ref: 'TS29122_CommonData.yaml#/components/schemas/LocationArea'
         locationArea5G:
