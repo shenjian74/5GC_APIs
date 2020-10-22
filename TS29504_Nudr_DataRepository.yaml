@@ -29,6 +29,8 @@ paths:
     $ref: 'TS29505_Subscription_Data.yaml#/paths/~1subscription-data~1%7BueId%7D~1authentication-data~1authentication-subscription'
   /subscription-data/{ueId}/authentication-data/authentication-status:
     $ref: 'TS29505_Subscription_Data.yaml#/paths/~1subscription-data~1%7BueId%7D~1authentication-data~1authentication-status'
+  /subscription-data/{ueId}/authentication-data/authentication-status/{servingNetworkName}:
+    $ref: 'TS29505_Subscription_Data.yaml#/paths/~1subscription-data~1%7BueId%7D~1authentication-data~1authentication-status~1%7BservingNetworkName%7D'
   /subscription-data/{ueId}/ue-update-confirmation-data/sor-data:
     $ref: 'TS29505_Subscription_Data.yaml#/paths/~1subscription-data~1%7BueId%7D~1ue-update-confirmation-data~1sor-data'
   /subscription-data/{ueId}/ue-update-confirmation-data/upu-data:
@@ -143,6 +145,10 @@ paths:
     $ref: 'TS29519_Application_Data.yaml#/paths/~1application-data~1pfds'
   /application-data/pfds/{appId}:
     $ref: 'TS29519_Application_Data.yaml#/paths/~1application-data~1pfds~1%7BappId%7D'
+  /application-data/serviceParamData:
+    $ref: 'TS29519_Application_Data.yaml#/paths/~1application-data~1serviceParamData'
+  /application-data/serviceParamData/{serviceParamId}:
+    $ref: 'TS29519_Application_Data.yaml#/paths/~1application-data~1serviceParamData~1%7BserviceParamId%7D'
   /application-data/influenceData:
     $ref: 'TS29519_Application_Data.yaml#/paths/~1application-data~1influenceData'
   /application-data/influenceData/{influenceId}:
